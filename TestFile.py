@@ -7,3 +7,9 @@ print("Hello Python");
 def plus(a, b):
 	return a+b
 
+#creating classes
+class summation(object):
+	def sum(self, a, b):
+		self.contents = a + b
+		return self.contents
+
